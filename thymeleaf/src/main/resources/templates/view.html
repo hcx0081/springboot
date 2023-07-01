@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p th:text="${username}">hello</p>
+    <!-- 前端显示：<p><a href="https://www.bilibili.com">$百度</a></p> -->
+    <p><a href="https://www.baidu.com" th:href="${link}">$百度</a></p>
+    <!-- 前端显示：<p><a href="link">@百度</a></p> -->
+    <!-- <p><a href="https://www.baidu.com" th:href="@{link}">@百度</a></p>不可以通过@{...}获取参数 -->
+    <p><a href="https://www.baidu.com" th:href="@{${link}}">@百度</a></p>
+</body>
+</html>

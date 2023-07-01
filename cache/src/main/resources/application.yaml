@@ -1,0 +1,20 @@
+# 数据库连接池配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cache
+    username: root
+    password: 623363564
+  
+  redis:
+    host: 192.168.106.100
+    port: 6379
+  
+  cache:
+    redis:
+      time-to-live: 1800000 # 设置缓存有效期
+
+# MyBatis-Plus相关配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #配置日志

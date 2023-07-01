@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/book
+    username: root
+    password: 200081
+    
+    druid:
+      stat-view-servlet:
+        enabled: true # 开启内置监控页面
+        login-username: admin # 登录用户名
+        login-password: 123 # 登录密码
+        reset-enable: false # 重置按钮失效
+      web-stat-filter:
+        enabled: true # 开启Web-JDBC关联监控
+      #        不需要配置，因为DruidWebStatFilterConfiguration类中有默认值
+      #        exclusions:
+      filters: stat,wall # 开启相应的内置Filter
+      filter:
+        stat:
+          enabled: true
+          slow-sql-millis: 1000
+          log-slow-sql: true
+        wall:
+          enabled: true
+          config:
+            drop-table-allow: false
+      aop-patterns: com.springboot.* # 监控AOP切入点
+  
+  
+  jdbc:
+    template:
+      query-timeout: 3

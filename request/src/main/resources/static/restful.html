@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    测试RESTful风格：
+    <form action="" method="get">
+        <input type="submit" value="RESTful-GET 提交"/>
+    </form>
+    <form action="" method="post">
+        <input type="submit" value="RESTful-POST 提交"/>
+    </form>
+    
+    <!-- value的大小写无所谓，HiddenHttpMethodFilter类的会自动进行转换为大写 -->
+    <form action="user" method="post">
+        <input name="_method" type="hidden" value="PUT"/>
+        <input type="submit" value="RESTful-PUT 提交"/>
+    </form>
+    <form action="user" method="post">
+        <!-- <input name="_method" type="hidden" value="delete"/> -->
+        <input name="_m" type="hidden" value="delete"/><!-- name="_m"需要在SpringBoot配置类中自定义配置HiddenHttpMethodFilter -->
+        <input type="submit" value="RESTful-DELETE 提交"/>
+    </form>
+</body>
+</html>

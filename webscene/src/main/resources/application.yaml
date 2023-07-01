@@ -1,0 +1,6 @@
+spring:
+  web:
+    resources:
+      static-locations: [ classpath:/res/,classpath:/public/ ] #表示默认访问目录
+#    mvc:
+#    static-path-pattern: /res/** #表示访问资源路径的前缀

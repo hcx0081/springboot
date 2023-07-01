@@ -1,0 +1,32 @@
+person:
+  UsernAme: "z\ns"
+  boss: false
+  birth: 2012/12/12 12:12:12
+  age: 18
+  pet:
+    name: tomcat
+    weight: 25
+  #  interests: [ 篮球,20 ]
+  interests:
+    - 篮球
+    - 20
+  #  animal: [ 猫,狗 ]
+  animal:
+    - 猫
+    - 狗
+  #    score: { english: 100,math: 100 }
+  score:
+    english: 100
+    math: 100
+  #  salaries: [ 3999,4999.99,5999.99 ]
+  salaries:
+    - 3999
+    - 4999.99
+    - 5999.99
+  allPets:
+    sick:
+      - { name: tom }
+      - { name: jerry,weight: 45 }
+      - name: mickey
+        weight: 50
+    health: [ { name: mario,weight: 45 } ]
