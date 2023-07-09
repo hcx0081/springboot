@@ -10,7 +10,10 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
-    private String username;
-    private String password;
+public class Car {
+    private String make;
+    private Integer numberOfSeats;
+    private CarType type;
+
+    private User user;
 }
