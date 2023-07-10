@@ -16,7 +16,7 @@ public interface CarConvert {
     CarConvert INSTANCE = Mappers.getMapper(CarConvert.class);
 
     @Mapping(source = "numberOfSeats", target = "seatCount")
-    @Mapping(target = "userDTO", source = "user")
+    @Mapping(source = "user", target = "userDTO")
     CarDTO carToCarDTO(Car car);
 
     UserDTO userToUserDTO(User user);
