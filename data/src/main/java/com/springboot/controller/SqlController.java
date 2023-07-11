@@ -13,13 +13,13 @@ import java.util.Map;
  */
 @Controller
 public class SqlController {
-    
+
     @Autowired
     private JdbcTemplate jdbcTemplate;
-    
+
     @RequestMapping("/sql")
     public void sql() {
         List<Map<String, Object>> list = jdbcTemplate.queryForList("select * from user;");
-        list.forEach(System.out::println);//{username=A, balance=7000.0}
+        list.forEach(System.out::println);// {username=A, balance=7000.0}
     }
 }
