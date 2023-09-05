@@ -1,6 +1,6 @@
 package com.springboot.servlet;
 /**
- * {@code @Description:} ${Description}
+ * {@code @description:} ${Description}
  */
 
 import javax.servlet.ServletException;

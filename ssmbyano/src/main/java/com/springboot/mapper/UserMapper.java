@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.Select;
 import java.util.List;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 // @Mapper
 public interface UserMapper {

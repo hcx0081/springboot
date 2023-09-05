@@ -10,7 +10,7 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @RestController
 @RequestMapping("/user")

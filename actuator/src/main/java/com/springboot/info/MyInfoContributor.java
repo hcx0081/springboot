@@ -5,7 +5,7 @@ import org.springframework.boot.actuate.info.InfoContributor;
 import org.springframework.stereotype.Component;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @Component
 public class MyInfoContributor implements InfoContributor {

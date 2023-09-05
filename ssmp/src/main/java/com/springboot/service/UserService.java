@@ -5,7 +5,7 @@ import com.springboot.entity.User;
 import java.util.List;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 public interface UserService {
     

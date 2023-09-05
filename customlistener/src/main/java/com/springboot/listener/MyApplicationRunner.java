@@ -5,7 +5,7 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @Component
 public class MyApplicationRunner implements ApplicationRunner {

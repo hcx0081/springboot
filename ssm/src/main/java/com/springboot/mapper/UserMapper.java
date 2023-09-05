@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @Mapper// mybatis-spring-boot-starter将默认搜寻带有@Mapper注解的Mapper接口
 public interface UserMapper {

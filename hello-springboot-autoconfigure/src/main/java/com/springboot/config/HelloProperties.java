@@ -4,7 +4,7 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @ConfigurationProperties("hello")
 @Data

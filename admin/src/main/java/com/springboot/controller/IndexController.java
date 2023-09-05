@@ -1,7 +1,7 @@
 package com.springboot.controller;
 
-import com.springboot.exception.CustomException;
 import com.springboot.entity.User;
+import com.springboot.exception.CustomException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import javax.servlet.http.HttpSession;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @Controller
 public class IndexController {

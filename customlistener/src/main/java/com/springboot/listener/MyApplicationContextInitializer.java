@@ -4,7 +4,7 @@ import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 public class MyApplicationContextInitializer implements ApplicationContextInitializer {
     @Override

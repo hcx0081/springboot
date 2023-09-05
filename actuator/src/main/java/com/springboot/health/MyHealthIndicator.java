@@ -6,7 +6,7 @@ import org.springframework.boot.actuate.health.Status;
 import org.springframework.stereotype.Component;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @Component
 public class MyHealthIndicator extends AbstractHealthIndicator {

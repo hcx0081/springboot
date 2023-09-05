@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @RestController
 public class SsmController {

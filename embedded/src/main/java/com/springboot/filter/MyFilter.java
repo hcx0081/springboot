@@ -1,6 +1,6 @@
 package com.springboot.filter;
 /**
- * {@code @Description:} ${Description}
+ * {@code @description:} ${Description}
  */
 
 import javax.servlet.*;

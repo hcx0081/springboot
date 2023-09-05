@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.util.UrlPathHelper;
 
 /**
- * {@code @Description:} SpringBoot配置类
+ * {@code @description:} SpringBoot配置类
  */
 @Configuration
 public class SpringConfig /* implements WebMvcConfigurer */ {

@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.springboot.entity.User;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 
 /**

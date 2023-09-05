@@ -9,7 +9,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
 import java.time.Duration;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 public class MySpringApplicationRunListener implements SpringApplicationRunListener {
     

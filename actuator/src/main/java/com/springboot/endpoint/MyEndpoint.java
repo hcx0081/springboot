@@ -5,7 +5,7 @@ import org.springframework.boot.actuate.endpoint.annotation.ReadOperation;
 import org.springframework.stereotype.Component;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @Endpoint(id = "myEndpoint")
 @Component

@@ -6,7 +6,7 @@ import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 public class PersonValidator implements Validator {
     @Override

@@ -4,7 +4,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @Component
 public class MyCommandLineRunner implements CommandLineRunner {

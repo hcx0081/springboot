@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @Controller
 public class TableController {

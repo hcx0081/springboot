@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
- * {@code @Description:} 自定义MVC功能配置类
+ * {@code @description:} 自定义MVC功能配置类
  */
 @Configuration
 public class AdminConfig implements WebMvcConfigurer {

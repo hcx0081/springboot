@@ -4,7 +4,7 @@ import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationListener;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 public class MyApplicationListener implements ApplicationListener {
     @Override

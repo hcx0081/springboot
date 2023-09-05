@@ -1,7 +1,7 @@
 package com.springboot.entity;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 public enum CarType {
     SMALL,

@@ -15,7 +15,7 @@ import java.util.Collections;
 import java.util.EventListener;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @Configuration
 public class MyConfig {

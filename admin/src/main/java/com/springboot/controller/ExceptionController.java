@@ -5,7 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @Controller
 public class ExceptionController {

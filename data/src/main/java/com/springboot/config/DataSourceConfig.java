@@ -14,7 +14,7 @@ import java.sql.SQLException;
 import java.util.Collections;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @Configuration
 public class DataSourceConfig {

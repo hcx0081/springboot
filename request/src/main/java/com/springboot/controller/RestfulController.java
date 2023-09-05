@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @RestController
 public class RestfulController {

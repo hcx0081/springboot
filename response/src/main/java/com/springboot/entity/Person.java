@@ -3,7 +3,7 @@ package com.springboot.entity;
 import lombok.Data;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @Data
 public class Person {

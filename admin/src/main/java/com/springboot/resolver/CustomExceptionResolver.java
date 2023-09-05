@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * {@code @Description:} 自定义异常解析器
+ * {@code @description:} 自定义异常解析器
  */
 @Order(Ordered.HIGHEST_PRECEDENCE)// 最高优先级
 @Component

@@ -5,7 +5,7 @@ import lombok.Data;
 import java.math.BigDecimal;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @Data
 public class User {

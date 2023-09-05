@@ -4,7 +4,7 @@ import com.springboot.config.HelloProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 
 public class HelloService {

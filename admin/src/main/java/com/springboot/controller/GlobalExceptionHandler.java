@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 /**
- * {@code @Description:} 全局异常处理器
+ * {@code @description:} 全局异常处理器
  */
 @ControllerAdvice
 public class GlobalExceptionHandler {

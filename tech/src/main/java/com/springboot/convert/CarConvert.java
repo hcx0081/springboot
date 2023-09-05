@@ -9,7 +9,7 @@ import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
 /**
- * {@code @Description:}
+ * {@code @description:}
  */
 @Mapper
 public interface CarConvert {
